@@ -23,3 +23,6 @@ def main():
         lcd.display_string("Temprature: %d" % (board.temperature()), 3)
         lcd.display_string("Custom: %d" % (board.custom()), 4)
         time.sleep(1)
+
+if __name__ == "__main__":
+    main()
