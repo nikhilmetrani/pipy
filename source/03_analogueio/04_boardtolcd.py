@@ -19,7 +19,7 @@ def main():
     while (1):
         lcd.clear()
         lcd.display_string("Control: %d" % (board.control()), 1)
-        lcd.display_string("Light: %d" % (board.light()), 1)
-        lcd.display_string("Temprature: %d" % (board.temperature()), 1)
-        lcd.display_string("Custom: %d" % (board.custom()), 1)
+        lcd.display_string("Light: %d" % (board.light()), 2)
+        lcd.display_string("Temprature: %d" % (board.temperature()), 3)
+        lcd.display_string("Custom: %d" % (board.custom()), 4)
         time.sleep(1)
