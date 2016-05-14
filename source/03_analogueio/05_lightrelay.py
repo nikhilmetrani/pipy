@@ -11,12 +11,20 @@
 
 from IOBoard import *
 from Relay import *
+from Lcd import *
+import time
 
 def main():
     board = Board()
     relay = Relay()
+    lcd = Lcd()
+
     while (1):
         light = int(board.light())
+        lcd.display_string("Control: %d" % (board.control()), 1)
+        lcd.display_string("Light: %d" % (light), 2)
+        lcd.display_string("Temprature: %d" % (board.temperature()), 3)
+        lcd.display_string("Custom: %d" % (board.custom()), 4)
         if light >= 175:
             relay.on(0)
         if light >= 200:
