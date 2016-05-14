@@ -1,5 +1,5 @@
 # Copyright 2016 Nikhil Metrani
-
+# Institute of Systems Science, National University of Singapore
 # This code shows how to connect to a 4-channel relay board and switch relay state
 # Connections:
 #    VCC:        2

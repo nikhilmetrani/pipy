@@ -1,5 +1,5 @@
 # Copyright 2016 Nikhil Metrani
-
+# Institute of Systems Science, National University of Singapore
 # Switch relay state using a reusable class - Relay
 # Connections:
 #    VCC:        2

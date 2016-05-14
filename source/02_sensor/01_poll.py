@@ -1,5 +1,5 @@
 # Copyright 2016 Nikhil Metrani
-
+# Institute of Systems Science, National University of Singapore
 # Interacting with a motion sensor
 # Let's poll the sensor output every second.
 # Connections:
