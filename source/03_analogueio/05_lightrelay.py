@@ -20,12 +20,11 @@ def main():
         if light >= 175:
             relay.on(0)
         if light >= 200:
-            relay.on(0)
             relay.on(1)
         if light <= 125:
-            relay.on(0)
+            relay.off(1)
         if light <= 50:
-            relay.on(1)
+            relay.off(0)
         time.sleep(1)
 
 if __name__ == "__main__":
